@@ -10,6 +10,7 @@ var [showMenu, setMenu] = useState(true);
            <div className='flex items-center justify-between px-6 py-8 sm:px-12 md:px-24 lg:px-40'>
                  {/* logo */}
                  <div>
+                      <div className='w-4 h-4 bg-purple-500 rounded-full animate-ping'></div>
                       <span className='text-2xl font-bold '>GEN-Z</span>
                       <div className='w-4 h-4 bg-amber-400 rounded-full border-2'></div>
                  </div>
